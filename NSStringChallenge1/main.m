@@ -10,8 +10,13 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        for (int i = 100; i > 0; i=i-3){
+            if (i % 5 == 0) {
+                printf("Found one\n");
+            }
+            else
+            printf("%d. Jamie is Cool\n", i);
+        }
     }
     return 0;
 }
